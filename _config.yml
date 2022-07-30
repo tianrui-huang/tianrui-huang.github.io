@@ -1,1 +1,6 @@
 theme: jekyll-theme-cayman
+
+deplay:
+  type: git
+  repository: https://github.com/tianrui-huang/tianrui-huang.github.io.git
+  branch: main
