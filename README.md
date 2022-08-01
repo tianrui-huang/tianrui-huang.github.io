@@ -12,4 +12,4 @@
 
 ### 博客部分
 
-<a href="./博客" class="a_light">Blog</a> 
+<a href="./Blog" class="a_light">Blog</a> 
