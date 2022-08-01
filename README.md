@@ -3,8 +3,8 @@
 ### *杨苏成*是最帅的。
 
 ***杨苏成最帅***  
-> 不接受反驳  
->           ----PandaGhost.github.io  
+> 不接受任何反驳  
+>           ----< Panda-Ghost.github.io >  
 
 ### Github项目部分
 
@@ -12,4 +12,9 @@
 
 ### 博客部分
 
-<a href="./Blog" class="a_light">Blog</a> 
+<a href="./Blog" class="a_light">Blog</a>
+
+### 捐款
+
+Bitcoin: bc1qten87w3kmexxns2pwc95auu938y3ddfn26fhn8
+Alipay: pass 
