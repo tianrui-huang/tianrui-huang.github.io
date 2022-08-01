@@ -16,5 +16,5 @@
 
 ### 捐款
 
-Bitcoin: bc1qten87w3kmexxns2pwc95auu938y3ddfn26fhn8
+Bitcoin: bc1qten87w3kmexxns2pwc95auu938y3ddfn26fhn8  
 Alipay: pass 
