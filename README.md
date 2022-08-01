@@ -1,6 +1,6 @@
 ## 欢迎来到黄天瑞的个人主页。
 
-### **杨苏成**是<span style="color:Pink">最帅的</span>。
+### **杨苏成**是<span style="color:Pink"><u>最帅的</u></span>。
 
 ***杨苏成最帅***  
 > 不接受任何反驳  
