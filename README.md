@@ -12,4 +12,4 @@
 
 ### 博客部分
 
-[Blog](https://tianrui-huang.github.io/博客/Bolg.html) 
+<a href="./博客" class="a_light">·Blog</a> 
