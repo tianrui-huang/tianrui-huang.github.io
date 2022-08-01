@@ -11,4 +11,5 @@
 尚无
 
 ### 博客部分
-pass 
+
+[Blog](https://tianrui-huang.github.io/博客/Bolg.html) 
