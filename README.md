@@ -18,7 +18,7 @@
 
 ### 博客部分
 
-<a href="./Blog" class="a_light">Blog</a>
+<a href="./Blog">Blog</a>
 
 ### 捐款
 
