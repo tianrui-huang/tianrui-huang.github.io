@@ -7,10 +7,7 @@
 >           ----<https://Panda-Ghost.github.io>  <br> 
 
 杨苏成为本人同学，英俊帅气，风流潇洒，而且家财万贯。  
-微信签名为 <u>牡丹花下死，做鬼也风流</u>      
-联系方式：  
-* ~~Email:<ysc20050203@qq.com>~~  
-* ~~微信号:jiecheng3377~~  
+微信签名为 <u>牡丹花下死，做鬼也风流</u>       
 
 ### Github项目部分
 
@@ -22,5 +19,5 @@
 
 ### 捐款
 
-Bitcoin: bc1qten87w3kmexxns2pwc95auu938y3ddfn26fhn8  
-Alipay: ![Alipay](./IMG_0538.JPG) 
+* *Bitcoin*: bc1qten87w3kmexxns2pwc95auu938y3ddfn26fhn8  
+* *Alipay*: ![Alipay](./IMG_0538.JPG) 
