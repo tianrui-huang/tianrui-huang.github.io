@@ -9,7 +9,7 @@
 杨苏成为本人同学，英俊帅气，风流潇洒，而且家财万贯。  
 微信签名为 <u>牡丹花下死，做鬼也风流</u>       
 图片：  
-![Photo](./Image_2.jpeg =400x300)
+<img src="./Image_2.jpeg" alt="photo" width="150" height="200">
 
 ### Github项目部分
 
