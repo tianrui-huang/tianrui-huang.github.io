@@ -16,35 +16,35 @@ canvas{display:block;}
             <a href="https://tianrui-huang.github.io">HOME</a><span style="color:White;"><h1 align="center" style="margin-bottom:0;">Blog</h1>
 <h1 align="center" style="margin-bottom:0;">The website is building</h1></span></div>
        </div>
+</style>
+    <style>
+        body{
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
 
-<canvas id="c"></canvas>
-<script type="text/javascript">
-var c=document.getElementById("c");
-var ctx= c.getContext("2d");
-c.height=window.innerHeight;
-c.width=window.innerWidth;
-var chinese="杨苏成很帅";
-chinese=chinese.split("");
-var font_size=10;
-var columns=c.width/font_size;
-var drops=[];
-for(var i=0;i<columns;i++)
-	drops[i]=1;
-function draw(){
-	ctx.fillStyle= "rgba(0,0,0,0.05)";
-	ctx.fillRect(0,0,c.width,c.height);
-	ctx.fillStyle= "#0F0" ;
-	ctx.font= font_size + "px arial" ;
-	for(var i=0;i<drops.length;i++){
-	var text=chinese[Math.floor
-(Math.random()*chinese.length)];
-ctx.fillText(text,i*font_size,drops[i]*font_size);
-if(drops[i]*font_size>c.height&&Math.random()>0.975)
-	drops[i]=0;
-	drops[i]++;
-	}
+<body>
+<canvas id="myCanvas"></canvas>
+<script>
+    const width = document.getElementById("myCanvas").width = screen.availWidth;
+    const height = document.getElementById("myCanvas").height = screen.availHeight;
+    const ctx = document.getElementById("myCanvas").getContext("2d");
+    const arr = Array(Math.ceil(width / 10)).fill(0);
+    const str = "杨苏成是很帅的".split("");
+
+function rain() {
+    ctx.fillStyle = "rgba(0,0,0,0.05)";
+    ctx.fillRect(0, 0, width, height);
+    ctx.fillStyle = "#0f0";
+    arr.forEach(function (value, index) {
+        ctx.fillText(str[Math.floor(Math.random() * str.length)], index * 10, value + 10);
+        arr[index] = value >= height || value > 8888 * Math.random() ? 0 : value + 10;
+    });
 }
-setInterval(draw,50);
+
+setInterval(rain, 30);
 </script>
 <span style="color:White;"><h1>MENU</h1>
 <a href="./Blog.html">Blog_1</a></span>
