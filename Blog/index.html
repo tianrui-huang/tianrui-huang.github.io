@@ -13,10 +13,9 @@ canvas{display:block;}
 <body>
     <div id='container' style='width:1400px'>
         <div id="header" style="background-color:Black;">
-            <a href="https://tianrui-huang.github.io">HOME</a><span style="color:White;"><h1 align="center" style="margin-bottom:0;">Blog</h1></span></div>
-        </div>
-<h2>The website is building...</h2>
-    </div>
+            <a href="https://tianrui-huang.github.io">HOME</a><span style="color:White;"><h1 align="center" style="margin-bottom:0;">Blog</h1>
+<h1 align="center" style="margin-bottom:0;">The website is building</h1></span></div>
+       </div>
 
 <canvas id="c"></canvas>
 <script type="text/javascript">
@@ -32,10 +31,10 @@ var drops=[];
 for(var i=0;i<columns;i++)
 	drops[i]=1;
 function draw(){
-	ctx.fillStyle="rgba(0,0,0,0.05)";
+	ctx.fillStyle= "rgba(0,0,0,0.05)";
 	ctx.fillRect(0,0,c.width,c.height);
-	ctx.fillStyle="#0F0";
-	ctx.font=font_size+"px arial";
+	ctx.fillStyle= "#0F0" ;
+	ctx.font= font_size + "px arial" ;
 	for(var i=0;i<drops.length;i++){
 	var text=chinese[Math.floor
 (Math.random()*chinese.length)];
@@ -47,8 +46,8 @@ if(drops[i]*font_size>c.height&&Math.random()>0.975)
 }
 setInterval(draw,50);
 </script>
-<h1>MENU</h1>
-<p>Blog_1</p>
+<span style="color:White;"><h1>MENU</h1>
+<p>Blog_1</p></span>
 
 </body>
 </html>
