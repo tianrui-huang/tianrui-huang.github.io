@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>解决hexo上载大文件后持续报错的问题</title>
+    <link href="/2024/07/09/%E8%A7%A3%E5%86%B3hexo%E4%B8%8A%E8%BD%BD%E5%A4%A7%E6%96%87%E4%BB%B6%E5%90%8E%E6%8C%81%E7%BB%AD%E6%8A%A5%E9%94%99%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <url>/2024/07/09/%E8%A7%A3%E5%86%B3hexo%E4%B8%8A%E8%BD%BD%E5%A4%A7%E6%96%87%E4%BB%B6%E5%90%8E%E6%8C%81%E7%BB%AD%E6%8A%A5%E9%94%99%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+    
+    <content type="html"><![CDATA[<h1 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h1><p>hexo在上载超过100MB的文件时，由于Github的限制会报错。如<br><code> remote: error: File xx/xx/xx.x is 118.75 MB; this exceeds   GitHub&#39;s file size limit of 100.00 MB</code><br><code> remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.</code>  </p><p>之后即使你在本地上做各种修改，譬如删除大文件也还是会报出同样的错误，直接影响了后续操作。<br>而网上关于这个问题的文章有不多，而且过于简略，所以将自己的解决方法放出。 </p><h1 id="问题分析与解决"><a href="#问题分析与解决" class="headerlink" title="问题分析与解决"></a>问题分析与解决</h1><h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>由于本地文件已经完全删除，所以问题不会出在真正的上传文件上。事实上问题在于commit记录，我们要从这入手，这也是为什么网上很多解决git上载的方法在这里无效，因为<br>他们是在想办法上载文件，但问题在记录上。现在我们来解决问题。 </p><h2 id="解决（图以后再补）"><a href="#解决（图以后再补）" class="headerlink" title="解决（图以后再补）"></a>解决（图以后再补）</h2><p>在github的界面上点击Actions，然后你可以看到下面是你的提交列表。<br>点击最新的”pages build and deployment”，新界面中，在用户名右边有一串字符，点击 。<br>在新界面中，复制最右方的commit。<br>在本地项目文件夹的.deploy_git文件夹（隐藏文件）中打开命令行，输入<br><code>git reset --hard commitID</code><br>commitID要用复制的替换。<br>最后用<br><code>hexo d -g</code><br>完成。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>技术 建站</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>限时开放</title>
     <link href="/2024/07/08/%E9%99%90%E6%97%B6%E5%BC%80%E6%94%BE/"/>
     <url>/2024/07/08/%E9%99%90%E6%97%B6%E5%BC%80%E6%94%BE/</url>
