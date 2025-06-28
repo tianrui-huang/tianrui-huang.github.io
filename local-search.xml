@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>一个卡牌游戏的设想</title>
+    <link href="/2025/06/28/%E4%B8%80%E4%B8%AA%E5%8D%A1%E7%89%8C%E6%B8%B8%E6%88%8F%E7%9A%84%E8%AE%BE%E6%83%B3/"/>
+    <url>/2025/06/28/%E4%B8%80%E4%B8%AA%E5%8D%A1%E7%89%8C%E6%B8%B8%E6%88%8F%E7%9A%84%E8%AE%BE%E6%83%B3/</url>
+    
+    <content type="html"><![CDATA[<p>我在学校里和同学利用好多鱼集卡大作战的卡设计了一个回合制的卡牌游戏，现在在尝试写成一个桌面游戏。等到大致成型了就把源码投到Github上，然后把这个贴子做成这个项目的官方网页。但是高三比较忙，可能比较慢吧</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>项目说明</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>OrangePi上运行Stable Diffusion</title>
     <link href="/2025/06/28/OrangePi%E4%B8%8A%E8%BF%90%E8%A1%8CStable-Diffusion/"/>
     <url>/2025/06/28/OrangePi%E4%B8%8A%E8%BF%90%E8%A1%8CStable-Diffusion/</url>
